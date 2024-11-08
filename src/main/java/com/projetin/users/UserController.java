@@ -39,6 +39,4 @@ public class UserController {
             false) String password){
         return this.service.updateUser(id, name, password);
     }
-
-
 }
